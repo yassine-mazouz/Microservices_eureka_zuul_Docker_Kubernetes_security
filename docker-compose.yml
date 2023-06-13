@@ -1,0 +1,37 @@
+version: "3"
+services:
+  microservice-discovery:
+    build:
+      context: ./discovery-service
+    ports:
+      - 8761:8761
+  microservice-gateway:
+    build:
+      context: ./gateway-service
+    ports:
+      - 8080:8080
+  microservice-user:
+    build:
+      context: ./user-service
+    ports:
+      - 8081:8081
+  microservice-site:
+    build:
+      context: ./site-service
+    ports:
+      - 8082:8082
+  microservice-organization:
+    build:
+      context: ./organization-service
+    ports:
+      - 8083:8083
+  microservice-kafka-consumer:
+    build:
+      context: ./kafka-consumer-service
+    ports:
+      - 8084:8084
+  microservice-kafka-Producer:
+    build:
+      context: ./kafka-Producer-service
+    ports:
+      - 8085:8085
