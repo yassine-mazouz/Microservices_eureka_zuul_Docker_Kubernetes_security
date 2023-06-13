@@ -8,7 +8,7 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sayedbaladoh</groupId>
+	<groupId>com.microservices.user</groupId>
 	<artifactId>user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>user-service</name>
@@ -65,6 +65,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<packaging>jar</packaging>
 
 	<build>
 		<plugins>

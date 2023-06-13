@@ -8,7 +8,7 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sayedbaladoh</groupId>
+	<groupId>com.microservices.zuul</groupId>
 	<artifactId>gateway-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gateway-service</name>
@@ -56,6 +56,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<packaging>jar</packaging>
 
 	<build>
 		<plugins>
