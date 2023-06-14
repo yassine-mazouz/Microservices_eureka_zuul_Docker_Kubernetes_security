@@ -25,5 +25,5 @@ ribbon:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://microservices-springboot.herokuapp.com:8761/eureka/
+      defaultZone: https://microservices-springboot.herokuapp.com/eureka/
     registerWithEureka: true
