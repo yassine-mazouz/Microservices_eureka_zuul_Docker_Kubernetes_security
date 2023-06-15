@@ -13,7 +13,6 @@ import com.kafka_producer.model.User;
 import com.kafka_producer.service.KafkaProducerService;
 
 @RestController
-@RequestMapping("/kafka")
 public class KafkaProducerController {
 
 	@Autowired
