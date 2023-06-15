@@ -86,14 +86,11 @@ Save this file in the root directory of your microservice project.
 
 Build Docker Images: Open a terminal or command prompt, navigate to the directory containing the Dockerfile, and run the following command to build the Docker image for your microservice:
 
-arduino
-
 docker build -t your-image-name .
 This command builds the Docker image using the Dockerfile in the current directory and assigns it a name using the -t flag.
 
 Run Docker Containers: Once the Docker image is built, you can run Docker containers based on the image. Use the following command to run a Docker container from the image:
 
-arduino
 docker run -p 8080:8080 your-image-name
 This command starts a Docker container based on the specified image and maps port 8080 of the container to port 8080 on your local machine. Adjust the port numbers as per your Spring Boot microservice configuration.
 
