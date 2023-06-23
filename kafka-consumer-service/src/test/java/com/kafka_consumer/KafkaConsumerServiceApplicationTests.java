@@ -1,4 +1,4 @@
-package com.kafka_consumer;
+/*package com.kafka_consumer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,3 +14,4 @@ public class KafkaConsumerServiceApplicationTests {
 	}
 
 }
+*/

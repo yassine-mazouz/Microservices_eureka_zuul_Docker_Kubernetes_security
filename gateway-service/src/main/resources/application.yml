@@ -20,6 +20,9 @@ zuul:
     kafka_producer:
         path: /kafka/**
         serviceId: kafka-producer-service
+    security:
+        path: /security/**
+        serviceId: security-jwt-service
 
 ribbon:
   eureka:

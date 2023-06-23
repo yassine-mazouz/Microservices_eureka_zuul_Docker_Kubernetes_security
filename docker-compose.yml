@@ -30,8 +30,13 @@ services:
       context: ./kafka-consumer-service
     ports:
       - 8084:8084
-  microservice-kafka-Producer:
+  microservice-kafka-producer:
     build:
       context: ./kafka-Producer-service
     ports:
       - 8085:8085
+  microservice-security-jwt:
+    build:
+      context: ./security-jwt-service
+    ports:
+      - 8086:8086
