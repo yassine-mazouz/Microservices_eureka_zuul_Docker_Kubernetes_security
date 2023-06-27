@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-consumer-service-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kafka-consumer-service
+  template:
+    metadata:
+      labels:
+        app: kafka-consumer-service
+    spec:
+      containers:
+        - name: kafka-consumer-service
+          image: kafka-consumer-service-image
+          ports:
+            - containerPort: 8084
+
+

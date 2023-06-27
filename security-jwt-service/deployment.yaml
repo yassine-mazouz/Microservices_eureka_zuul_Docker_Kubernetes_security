@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: security-jwt-service-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: security-jwt-service
+  template:
+    metadata:
+      labels:
+        app: security-jwt-service
+    spec:
+      containers:
+        - name: security-jwt-service
+          image: security-jwt-service-image
+          ports:
+            - containerPort: 8086

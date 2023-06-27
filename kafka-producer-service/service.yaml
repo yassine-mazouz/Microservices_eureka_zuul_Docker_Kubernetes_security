@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka-producer-service
+spec:
+  selector:
+    app: kafka-producer-service
+  ports:
+    - protocol: TCP
+      port: 8085
+      targetPort: 8085
