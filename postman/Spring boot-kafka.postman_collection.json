@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "aa37fca8-2353-462d-828f-8e37273d4c30",
+		"name": "Spring boot-kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18703221"
+	},
+	"item": [
+		{
+			"name": "Publish json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"AAA\",\r\n    \"age\":\"12\",\r\n    \"salary\":\"100\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/publish/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"publish",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Publish name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/publish/kkk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"publish",
+						"kkk"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
