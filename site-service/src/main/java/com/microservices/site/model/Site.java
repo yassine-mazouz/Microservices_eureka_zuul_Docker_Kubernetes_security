@@ -14,7 +14,7 @@ import javax.persistence.Transient;
 /**
  * Site Model
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @Table(name = "sites")

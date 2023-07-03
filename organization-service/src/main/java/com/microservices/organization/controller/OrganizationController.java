@@ -21,7 +21,7 @@ import com.microservices.organization.service.OrganizationService;
 /**
  * Organizations Controller
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @RestController

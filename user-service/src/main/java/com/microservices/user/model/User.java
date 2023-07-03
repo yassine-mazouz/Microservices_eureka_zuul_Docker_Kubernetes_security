@@ -12,7 +12,7 @@ import javax.persistence.Table;
 /**
  * User Model
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @Table(name = "users")

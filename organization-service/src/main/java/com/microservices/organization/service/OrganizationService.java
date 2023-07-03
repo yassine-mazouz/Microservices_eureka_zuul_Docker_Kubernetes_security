@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 /**
  * Organization Service
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @Service

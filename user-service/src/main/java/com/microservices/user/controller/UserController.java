@@ -20,7 +20,7 @@ import com.microservices.user.model.User;
 /**
  * Recipients Controller
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @RestController

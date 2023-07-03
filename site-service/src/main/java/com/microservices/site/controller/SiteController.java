@@ -19,7 +19,7 @@ import com.microservices.site.model.Site;
 /**
  * Sites Controller
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @RestController

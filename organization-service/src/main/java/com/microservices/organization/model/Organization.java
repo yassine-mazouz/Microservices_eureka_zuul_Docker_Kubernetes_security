@@ -13,7 +13,7 @@ import javax.persistence.Transient;
 /**
  * Organization Model
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @Table(name = "organizations")

@@ -3,7 +3,7 @@ package com.microservices.site.model;
 /**
  * User Entity
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 public class User {

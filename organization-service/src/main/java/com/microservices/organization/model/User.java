@@ -3,7 +3,7 @@ package com.microservices.organization.model;
 /**
  * User Entity
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 public class User {

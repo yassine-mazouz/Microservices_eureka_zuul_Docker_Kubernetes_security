@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Site Entity
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 public class Site {

@@ -13,7 +13,7 @@ import com.microservices.user.model.User;
 /**
  * User Service
  * 
- * @author SayedBaladoh
+ * @author YassineMazouz
  *
  */
 @Service
